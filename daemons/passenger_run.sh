@@ -1,6 +1,6 @@
 #!/bin/sh
 
 
-cd /var/www
+cd $APP_PATH
 
 passenger start --port 80
